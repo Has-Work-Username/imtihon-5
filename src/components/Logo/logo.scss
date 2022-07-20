@@ -1,0 +1,62 @@
+@import "../../assets/variables/color/color.scss";
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 16.4%;
+    padding-top: 20px;
+    img {
+        width: 58.24px;
+        height: 58.24px;
+    }
+    h1 {
+        margin: 13px 0 0 0  ;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 32.97px;
+        color: $color-100;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo {
+        display: inline-block;
+        width: 120px;
+        padding-top: 35px;
+        img {
+            width: 33.4px;
+            height: 33.4px;
+            margin-right: 8.6px;
+            vertical-align: middle;
+        }
+        h1 {
+            display: inline-block;
+            margin: 0;
+            font-weight: 500;
+            font-size: 14.3377px;
+            line-height: 19px;
+            vertical-align: middle;
+        }
+    }
+}
+
+// @media screen and (max-width: 912px) {
+//     .header__logo {
+//         display: inline-block;
+//         width: 120px;
+//         img {
+//             width: 33.4px;
+//             height: 33.4px;
+//             margin-right: 8.6px;
+//             vertical-align: middle;
+//         }
+//         h1 {
+//             display: inline-block;
+//             margin: 0;
+//             font-weight: 500;
+//             font-size: 14.3377px;
+//             line-height: 19px;
+//             vertical-align: middle;
+//         }
+//     }
+// }

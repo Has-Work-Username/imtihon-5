@@ -1,0 +1,11 @@
+.home__items-wrapper {
+    display: flex;
+    gap: 109px;
+    padding-top: 80px;
+}
+
+@media screen and (max-width:820px) {
+    .home__items-wrapper {
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+@import "../../assets/variables/color/color.scss";
+.not-found-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    img {
+        width: 40.4%;
+        height: 193.01px;
+        margin-bottom: 50px;
+    }
+    h2 {
+        margin: 0 0 20px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $color-80;
+    }
+    p {
+        margin: 0 0 40px 0;
+        text-align: center;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .to-home {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+        color: $color-80;
+    }
+}

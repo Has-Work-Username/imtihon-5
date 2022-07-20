@@ -1,0 +1,50 @@
+@import "../../assets/variables/color/color.scss";
+@import "../../assets/variables/spacing/spacing.scss";
+ .home__main {
+     display: flex;
+     flex-direction: column;
+     gap: $card-between-sp;
+     width: 73%;
+    h2 {
+        margin: 0 0 58px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        color: $color-80;
+    }
+    .main__pagination-wrapper {
+        width: 86.5%;
+        margin-top: 59px;
+        margin-bottom: 150px;
+        text-align: right;
+        .pagination__arrow-wrapper {
+            display: inline-block;
+            padding: 11px 15px;
+            cursor: pointer;
+            background-color: #F4F4F4;
+            border-radius: 3px;
+        }
+        .pagination__arrow-wrapper:hover {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 0px 2px $color-80;
+        }
+        span {
+            display: inline-block;
+            padding: 8px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 32px;  
+            color: $color-80;
+            cursor: pointer;
+        }
+        span:hover {
+            color: #FFBA9D;
+        }
+    }
+}
+
+@media screen and (max-width:820px) {
+    .home__main {
+        width: 100%;
+    }
+}

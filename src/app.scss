@@ -1,0 +1,24 @@
+@import "./assets/variables/color/color.scss";
+@import "./assets/fonts/font.scss";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $display-bc;
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul , li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

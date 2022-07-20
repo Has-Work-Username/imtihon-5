@@ -1,0 +1,48 @@
+@import "../../assets/variables/color/color.scss";
+.post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 86.5%;
+    padding: 0 0 17px;
+    border-bottom: 1px solid #DFDFDF;
+    .card-top {
+        display: flex;
+        justify-content: space-between;
+        .card__date-wrapper,.card__type-wrapper {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: $color-60;
+        }
+    }
+    p {
+        width: 73.9%;
+        margin: 0;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 28px;
+        color: $color-80;
+    }
+    .card__read-time-wrapper {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: $color-60;
+        img {
+            margin-right: 11.25px;
+            width: 17.5px;
+            height: 17.5px;
+            vertical-align: text-top;
+        }
+    }
+}
+
+@media screen and (max-width:820px) {
+   .post-card {
+        width: 100%;
+        p {
+            width: 100%;
+        }
+    }
+}

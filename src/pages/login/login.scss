@@ -1,0 +1,52 @@
+@import "../../assets/variables/color/color.scss";
+.login-wrapper {
+    padding: 316px 0;
+    h1 {
+        margin: 0 0 56px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 53px;
+        text-align: center;
+        color:$color-100;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 350px;
+        margin: 0 auto;
+        input {
+            width: 100%;
+            padding: 12px 14px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: $color-80;
+            background-color: $search-input-bc;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 11px 0;
+            cursor: pointer;
+            border: none;
+            border-radius: 3px;
+            outline: none;
+            color: $color-20;
+            background-color: $color-100;
+        }
+    }
+    span{
+        color: red;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .login-wrapper {
+        form {
+            width: 250px;
+        }
+    }
+}
